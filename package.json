@@ -1,5 +1,5 @@
 {
-  "name": "svelte-dtables",
+  "name": "davidmungai/svelte-dtables",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -15,11 +15,14 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "@types/jquery": "^3.5.14",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
+    "datatables.net-dt": "^1.11.5",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
+    "jquery": "^3.6.0",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
     "svelte": "^3.44.0",
