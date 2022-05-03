@@ -1,3 +1,9 @@
+# Datables ported into svelte
+
+# still in beta
+
+Porting datatable to svelte
+
 ```
 <script lang="ts">
   import Dtable from "$lib/Dtable.svelte"
