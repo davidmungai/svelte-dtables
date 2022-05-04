@@ -6,7 +6,7 @@ Porting datatable to svelte
 
 ```
 <script lang="ts">
-	import injectDatatableAction from '$lib';
+	import injectDatatableAction from 'svelte-dtables';
 	let initProps = { id: 'datatable', props: {} };
 </script>
 
