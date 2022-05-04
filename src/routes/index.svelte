@@ -1,6 +1,6 @@
 <script lang="ts">
-	import injectDatatableAction from '$lib/DtableComponent';
-	let initProps = { id: 'datatables', props: {} };
+	import injectDatatableAction from '$lib';
+	let initProps = { id: 'datatable', props: {} };
 </script>
 
 <table id="datatable" use:injectDatatableAction={initProps} class="display" style="width:100%">

@@ -1,6 +1,6 @@
 {
   "name": "svelte-dtables",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -12,20 +12,18 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
-  "exports":{
-    ".":"./DtableComponent.js"
-  },
+
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "@types/jquery": "^3.5.14",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
-    "datatables.net-dt": "^1.11.5",
+    
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
-    "jquery": "^3.6.0",
+    "@types/datatables.net": "^1.10.21",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
     "svelte": "^3.44.0",
@@ -40,6 +38,7 @@
   "keywords": ["datatables","svelte","svelte-datatables"],
   "type": "module",
   "dependencies": {
-    "@types/datatables.net": "^1.10.21"
+    "datatables.net-dt": "^1.11.5",
+    "jquery": "^3.6.0"
   }
 }

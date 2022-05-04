@@ -6,7 +6,10 @@ const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
 	preprocess: preprocess(),
-
+    package: {
+	dir: 'package',
+	emitTypes: true
+        },
 	kit: {
 		adapter: adapter()
 	}

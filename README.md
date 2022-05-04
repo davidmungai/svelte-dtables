@@ -6,31 +6,49 @@ Porting datatable to svelte
 
 ```
 <script lang="ts">
-  import Dtable from "$lib/Dtable.svelte"
+	import injectDatatableAction from '$lib';
+	let initProps = { id: 'datatable', props: {} };
 </script>
-<Dtable columns={[
-    { data: 'name', title:'name' },
-    { data: 'position' ,title: 'position'},
-    { data: 'salary',title: 'salary' },
-    { data: 'office',title: 'office' }
-]}
-data={[
-    {
-        "name":       "Tiger Nixon",
-        "position":   "System Architect",
-        "salary":     "$3,120",
-        "start_date": "2011/04/25",
-        "office":     "Edinburgh",
-        "extn":       "5421"
-    },
-    {
-        "name":       "Garrett Winters",
-        "position":   "Director",
-        "salary":     "$5,300",
-        "start_date": "2011/07/25",
-        "office":     "Edinbudddddddddddddrgh",
-        "extn":       "8422"
-    }
-]}
-/>
+
+<table id="datatable" use:injectDatatableAction={initProps} class="display" style="width:100%">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Position</th>
+			<th>Office</th>
+			<th>Age</th>
+			<th>Start date</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Tiger Nixon</td>
+			<td>System Architect</td>
+			<td>Edinburgh</td>
+			<td>61</td>
+			<td>2011/04/25</td>
+			<td>$320,800</td>
+		</tr>
+		<tr>
+			<td>Garrett Winters</td>
+			<td>Accountant</td>
+			<td>Tokyo</td>
+			<td>63</td>
+			<td>2011/07/25</td>
+			<td>$170,750</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>Name</th>
+			<th>Position</th>
+			<th>Office</th>
+			<th>Age</th>
+			<th>Start date</th>
+			<th>Salary</th>
+		</tr>
+	</tfoot>
+</table>
+
 ```

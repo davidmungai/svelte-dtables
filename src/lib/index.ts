@@ -8,12 +8,13 @@
         props:any;
     }
 
-export default   function injectDatatableAction(initProps: initProps, node: HTMLElement) {
+export default   function injectDatatableAction(node: any,initProps: initProps, ) {
+
     const    Dtable = new SvelteDatatable(initProps.id, {...initProps.props}, node);
     return {
         destroy() {
             
-           
+          document.getElementById("datatable_wrapper").remove()
         },
 
     };
@@ -24,17 +25,14 @@ class SvelteDatatable
     public  id:string;
     public dtable:any;
     public initProps:any;
-    constructor(identifier:string,initProps:any,node:HTMLElement) 
+    constructor(identifier:string,initProps:any,node:any) 
     {
         initDt();
 
         this.id = identifier
+        this.initProps=initProps.props
         this.dtable= jQuery(`#${this.id}`).DataTable(this.initProps);
-        console.log(">><><",node)
+        console.log(">><ddd><",node)
 
-    }
-
-    
-
-    
+    }  
 }
