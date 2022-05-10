@@ -1,0 +1,1 @@
+SELECT  allnames, e_mail, member_no FROM members WHERE CONFIRMED = 1  and e_mail is not null  order by member_no asc limit 1000
