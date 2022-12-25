@@ -18,7 +18,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "@types/datatables.net": "^1.10.21",
+    "@types/datatables.net": "^1.10.24",
     "@types/jquery": "^3.5.14",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
