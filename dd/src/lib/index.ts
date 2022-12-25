@@ -18,6 +18,7 @@ export default class SvelteDatatable implements initProps {
 	public dtColumns: any;
 	public dtRows: any;
 	constructor(initProps: initProps) {
+		initDt();
 		this.tableId = initProps.tableId;
 
 		if (initProps.columns && initProps.data) {
