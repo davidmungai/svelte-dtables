@@ -1,0 +1,4 @@
+- fix:formatted readme
+- fix:correctly fixed loading of svelte-dtables
+- fix:loaded datatable and loading into the table component
+- initial commit
