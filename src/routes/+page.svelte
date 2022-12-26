@@ -1,11 +1,9 @@
-
-
+<script>
+	import { Table } from 'svelte-dtable';
+	import data from './data.ts';
+	let columns = ['name', 'position', 'salary', 'start_date', 'office', 'extn'];
+</script>
 
 <div>
-	<h1>loading via ajax</h1>
-	<table id="example" class="display" />
-</div>
-<div>
-	<h1>loading via columns</h1>
-	<table id="example2" class="display" />
+	<Table rows={data} {columns} />
 </div>

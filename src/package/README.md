@@ -1,23 +1,31 @@
-````This is still in beta development
-```
-# svelte-dtables
+# svelte-dtable
 
-svelte-dtables is a svelte library porting [datatables](https://datatables.net/) from jquery to svelte .
+svelte-dtable is a svelte datatables library
+
+## DO NOT USE in prod as it is still in beta
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install svelte-dtables.
+Use the package manager [npm](https://www.npmjs.com/) to install svelte-dtable.
 
 ```bash
-npm i svelte-dtables
+npm i svelte-dtable
 ```
+## Examples
+
+find documentation at [npm](https://svelte-dtable.netlify.app/) to install svelte-dtable.
+
+```bash
+npm i svelte-dtable
+```
+
 
 ## Usage
 
 ```javascript
 
 <script lang="ts">
-	import SvelteDatatable from 'svelte-dtables';
+	import SvelteDatatable from 'svelte-dtable';
 	import { onMount, beforeUpdate } from 'svelte';
 	import data from './data';
 
@@ -70,7 +78,7 @@ npm i svelte-dtables
 
 ## Contributing
 
-Pull requests are welcome [svelte-dtables](https://github.com/davidmungai/svelte-dtables). For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome [svelte-dtable](https://github.com/davidmungai/svelte-dtables). For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
