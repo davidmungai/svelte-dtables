@@ -174,20 +174,6 @@
   "resolved" "https://registry.npmjs.org/@types/cookie/-/cookie-0.5.1.tgz"
   "version" "0.5.1"
 
-"@types/datatables.net@^1.10.24":
-  "integrity" "sha512-Qb82/7Gn0bU36YLiv0MdaqKzhTLfRO9qPvFdkW0miQ6ATMG47aoPn2r//zTvGd3oPSt+Lzp1HSsjP6rZRuki8g=="
-  "resolved" "https://registry.npmjs.org/@types/datatables.net/-/datatables.net-1.10.24.tgz"
-  "version" "1.10.24"
-  dependencies:
-    "@types/jquery" "*"
-
-"@types/jquery@*", "@types/jquery@^3.5.14":
-  "integrity" "sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg=="
-  "resolved" "https://registry.npmjs.org/@types/jquery/-/jquery-3.5.14.tgz"
-  "version" "3.5.14"
-  dependencies:
-    "@types/sizzle" "*"
-
 "@types/json-schema@^7.0.9":
   "integrity" "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ=="
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
@@ -214,11 +200,6 @@
   "integrity" "sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw=="
   "resolved" "https://registry.npmjs.org/@types/semver/-/semver-7.3.13.tgz"
   "version" "7.3.13"
-
-"@types/sizzle@*":
-  "integrity" "sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ=="
-  "resolved" "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.3.tgz"
-  "version" "2.3.3"
 
 "@typescript-eslint/eslint-plugin@^5.45.0":
   "integrity" "sha512-AHZtlXAMGkDmyLuLZsRpH3p4G/1iARIwc/T0vIem2YB+xW6pZaXYXzCBnZSF/5fdM97R9QqZWZ+h3iW10XgevQ=="
@@ -1626,6 +1607,15 @@
     "sade" "^1.7.4"
     "svelte-preprocess" "^4.0.0"
     "typescript" "*"
+
+"svelte-dtable@^0.1.6":
+  "integrity" "sha512-3SqDdqTTki6q2ZfGPVXkvFIo41YqqHu0IKsEJN260IoNNLb4ktGZcXJuttYrURlXyLdbv5lra0UCW3nSXJ8KYQ=="
+  "resolved" "https://registry.npmjs.org/svelte-dtable/-/svelte-dtable-0.1.6.tgz"
+  "version" "0.1.6"
+  dependencies:
+    "@sveltejs/package" "^1.0.1"
+    "datatables.net-dt" "^1.11.5"
+    "jquery" "^3.6.0"
 
 "svelte-hmr@^0.15.1":
   "integrity" "sha512-BiKB4RZ8YSwRKCNVdNxK/GfY+r4Kjgp9jCLEy0DuqAKfmQtpL38cQK3afdpjw4sqSs4PLi3jIPJIFp259NkZtA=="
