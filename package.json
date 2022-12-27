@@ -1,6 +1,6 @@
 {
 	"name": "svelte-dtable",
-	"version": "0.1.7",
+	"version": "0.1.7-beta.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
