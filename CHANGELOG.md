@@ -1,0 +1,17 @@
+- feat:added documentation
+- fix:add search and filter
+- fix:removed tailwindcss
+- fix:removed jquery and datatables
+- fix:introducing npm beta tagging
+- fix:reimplementation of jquery in plain js
+- fix:removed example missing imports
+- fix:added netlify.toml for deployment
+- feat:hosted on netlify
+- feat:added netlify adapter
+- feat:update to svelte v1
+- fix:added datables type
+- feat:added changelog file
+- fix:formatted readme
+- fix:correctly fixed loading of svelte-dtables
+- fix:loaded datatable and loading into the table component
+- initial commit

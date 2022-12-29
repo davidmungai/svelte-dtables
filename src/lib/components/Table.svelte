@@ -58,7 +58,7 @@
 		let sort = (a, b) =>
 			a[column] < b[column] ? -1 * sortModifier : a[column] > b[column] ? 1 * sortModifier : 0;
 
-		rows = rows.sort(sort);
+		data.displayData = data.displayData.sort(sort);
 	};
 </script>
 
